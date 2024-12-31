@@ -162,7 +162,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
 
                     <div class="mt-6 text-center">
-                        <a href="//" class="inline-flex items-center text-sm text-gray-600 hover:text-blue-600 transition-colors duration-200">
+                        <a href="/" class="inline-flex items-center text-sm text-gray-600 hover:text-blue-600 transition-colors duration-200">
                             <i class="fas fa-arrow-left mr-2"></i>
                             Kembali ke Beranda
                         </a>
