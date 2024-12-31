@@ -1,0 +1,8 @@
+# /uploads/.htaccess
+Options -Indexes +FollowSymLinks
+Allow from all
+
+<Files ~ ".*">
+    Order Allow,Deny
+    Allow from all
+</Files>

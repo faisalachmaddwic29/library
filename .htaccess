@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /
+
+# Izinkan akses langsung ke file yang ada
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Izinkan akses ke folder uploads
+RewriteRule ^uploads/ - [L]
+
+# Arahkan semua request lain ke index.php
+RewriteRule ^ index.php [L]
